@@ -1,2 +1,2 @@
-FROM cdrx/pyinstaller-windows:python3
+FROM engineervix/pyinstaller-windows:python3
 ENTRYPOINT []
