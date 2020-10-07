@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Used by Docker Hub to replace the normal autobuild build script
+
+# Windows (Gitlab-CI) Build -- pYthon3
+docker build --no-cache -t engineervix/pyinstaller-windows-ci:python3 . --network=host
